@@ -49,7 +49,7 @@ namespace CSTestGround.NotePad
         {
             string filePath = @"C:\Users\Georgie\Source\Repos\Learn-CSharp\NotePad\NotesDB.json";
 
-            List<NoteElements> notes;
+            List<NoteElements> notes; // preparation for use
 
             if (File.Exists(filePath)) // check if the file is empty
             {
@@ -70,7 +70,7 @@ namespace CSTestGround.NotePad
 
             notes.Add(newNote);
 
-            string updatedJson = JsonSerializer.Serialize(notes, new JsonSerializerOptions
+            string updatedJson = JsonSerializer.Serialize(notes, new JsonSerializerOptions // after adding the notes -> Serialize back to json
             {
                 WriteIndented = true
             });

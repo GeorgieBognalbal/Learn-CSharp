@@ -11,7 +11,7 @@ namespace CSTestGround.MainMenu
             string[] options =
             {
             "NotePad"
-        };
+            };
 
             int selectedIndex = 0;
             Console.CursorVisible = false;
