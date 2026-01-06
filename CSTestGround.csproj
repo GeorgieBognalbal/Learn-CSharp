@@ -84,6 +84,7 @@
     <Compile Include="NotePad\NotePadMenu.cs" />
     <Compile Include="MainMenu\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Style.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

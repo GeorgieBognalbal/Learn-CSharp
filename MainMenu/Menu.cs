@@ -10,7 +10,8 @@ namespace CSTestGround.MainMenu
         {
             string[] options =
             {
-            "NotePad"
+            "NotePad",
+            "test"
             };
 
             int selectedIndex = 0;
@@ -20,7 +21,7 @@ namespace CSTestGround.MainMenu
             {
                 DrawMenu(options, selectedIndex);
 
-                ConsoleKey key = Console.ReadKey(true).Key;
+                ConsoleKey key = Console.ReadKey().Key;
 
                 if (key == ConsoleKey.UpArrow)
                 {

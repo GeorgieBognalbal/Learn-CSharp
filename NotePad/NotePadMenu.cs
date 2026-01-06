@@ -4,14 +4,17 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 using System.Threading.Channels;
 using System.Threading.Tasks;
+using TutorialProject;
 
 namespace CSTestGround.NotePad
 {
     public class NotePadMenu
     {
         public NotePadData pad = new NotePadData();
+        public Style style = new Style();
         public void DisplayNotes()
         {
 
@@ -25,8 +28,8 @@ namespace CSTestGround.NotePad
             }
 
             string json = File.ReadAllText(filePath);
-
             List<NoteElements> notes = JsonSerializer.Deserialize<List<NoteElements>>(json);
+
             if (notes == null || notes.Count == 0)
             {
                 Console.WriteLine("NO NOTES FOUND");
@@ -35,19 +38,59 @@ namespace CSTestGround.NotePad
 
             Console.Clear();
 
-            Console.WriteLine("\n--- Saved Notes ---                                                PRESS 'A' to add notes");
+            int selectedIndex = 0;
+
+            List<object> notesSaved = new List<object>(); // the note count and title is stored here <---- will be used for DisplayMenu
+
+            // to save the title and count to the list
             foreach (var note in notes)
             {
-                Console.WriteLine(note.ToString());
-                Console.WriteLine("-----------------------------------------------------------------------------------------");
+                var notesInfo = $"{notes.Count} : {note.title}";
+                notesSaved.Add(notesInfo);
             }
 
-            var key = Console.ReadKey();
+            DrawMenu(notesSaved, selectedIndex);
 
-            if (key.Key == ConsoleKey.A)
+            var key = Console.ReadKey().Key;
+
+            if (key == ConsoleKey.DownArrow)
             {
-                pad.TakeNotes();
+                selectedIndex++;
+            }
+
+            if (key == ConsoleKey.UpArrow)
+            {
+                selectedIndex--;
+            }
+
+            if (key == ConsoleKey.Enter)
+            {
+                Console.Clear();
+                if (selectedIndex == 0)
+                {
+                    Console.WriteLine(notes[0]);
+                    Console.ReadKey();
+                }
             }
         }
+
+        public void DrawMenu(List<object> list, int selectedIndex)
+        {
+            Console.WriteLine("\n--- Saved Notes ---\n");
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (i == selectedIndex)
+                {
+                    Console.WriteLine(style.GREEN + list[i] + style.RESET);
+                }
+                else
+                {
+                    Console.WriteLine(list[i]);
+                }
+            }
+        }
+
+        
     }
 }
