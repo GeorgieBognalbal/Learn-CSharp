@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\notepad\\notepadmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\mainmenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:mainmenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\weather\\getweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:weather\\getweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\weather\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:weather\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\notepad\\notepadmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:notepad\\notepadmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:notepad\\notepaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\notepad\\notesdb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\notepad\\notesdb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:notepad\\notesdb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Program.cs",
+              "RelativeDocumentMoniker": "MainMenu\\Program.cs",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Program.cs*",
+              "RelativeToolTip": "MainMenu\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T19:51:52.149Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -46,7 +71,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Weather\\WeatherData.cs",
+              "RelativeDocumentMoniker": "Weather\\WeatherData.cs",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Weather\\WeatherData.cs",
+              "RelativeToolTip": "Weather\\WeatherData.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T16:35:09.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GetWeather.cs",
+              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Weather\\GetWeather.cs",
+              "RelativeDocumentMoniker": "Weather\\GetWeather.cs",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Weather\\GetWeather.cs",
+              "RelativeToolTip": "Weather\\GetWeather.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:42:36.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "NotesDB.json",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotesDB.json",
               "RelativeDocumentMoniker": "NotePad\\NotesDB.json",
@@ -54,8 +105,7 @@
               "RelativeToolTip": "NotePad\\NotesDB.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-07T13:00:28.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T13:00:28.685Z"
             },
             {
               "$type": "Document",
@@ -65,48 +115,47 @@
               "RelativeDocumentMoniker": "Style.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Style.cs",
               "RelativeToolTip": "Style.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAASwCMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T19:23:50.743Z"
+              "WhenOpened": "2026-01-05T19:23:50.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "NotePadData.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotePadData.cs",
               "RelativeDocumentMoniker": "NotePad\\NotePadData.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotePadData.cs",
               "RelativeToolTip": "NotePad\\NotePadData.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAEwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T17:46:49.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T17:46:49.121Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs",
               "RelativeDocumentMoniker": "MainMenu\\Menu.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs*",
               "RelativeToolTip": "MainMenu\\Menu.cs*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T07:10:53.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "NotePadMenu.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotePadMenu.cs",
               "RelativeDocumentMoniker": "NotePad\\NotePadMenu.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotePadMenu.cs*",
-              "RelativeToolTip": "NotePad\\NotePadMenu.cs*",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAmwB8AAABcAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotePadMenu.cs",
+              "RelativeToolTip": "NotePad\\NotePadMenu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T07:09:15.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T07:09:15.367Z"
             }
           ]
         },

@@ -1,16 +1,20 @@
 ﻿using System;
+using System.Threading.Tasks;
 using CSTestGround.NotePad;
+using TutorialProject.Weather;
 
 namespace CSTestGround.MainMenu
 {
     class Menu
     {
         public NotePadMenu notePad = new NotePadMenu();
+        public GetWeather weather = new GetWeather();
         public void Start()
         {
             string[] options =
             {
             "NotePad",
+            "Weather"
             };
 
             int selectedIndex = 0;
@@ -52,7 +56,7 @@ namespace CSTestGround.MainMenu
                     //-----
                     if (selectedIndex == 1)
                     {
-                        //-----
+                        weather.Display();
                     }
                 }
             }

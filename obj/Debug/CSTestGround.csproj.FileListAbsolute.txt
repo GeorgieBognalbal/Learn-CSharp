@@ -60,3 +60,5 @@ C:\Users\Georgie\Source\Repos\Learn-CSharp\obj\Debug\CSTestGr.7F978BC5.Up2Date
 C:\Users\Georgie\Source\Repos\Learn-CSharp\obj\Debug\TutorialProject.exe
 C:\Users\Georgie\Source\Repos\Learn-CSharp\obj\Debug\TutorialProject.pdb
 C:\Users\Georgie\Source\Repos\Learn-CSharp\obj\Debug\TutorialProject.exe.config
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\Newtonsoft.Json.xml
