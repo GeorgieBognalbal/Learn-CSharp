@@ -13,9 +13,7 @@ namespace CSTestGround.NotePad
     {
         public string dateTime { get; set; }
         public string title { get; set; }
-        public string description { get; set; }
-
-        
+        public string description { get; set; } 
         public override string ToString()
         {
             return $"\nTime: {dateTime}\nTitle: {title}\nNote: {description}";
@@ -25,6 +23,10 @@ namespace CSTestGround.NotePad
     {
         public void TakeNotes()
         {
+            NotePadMenu padMenu = new NotePadMenu();
+
+            Console.Clear();
+
             Console.Write("Title: ");
             string title = Console.ReadLine();
 
@@ -41,8 +43,7 @@ namespace CSTestGround.NotePad
             SaveNotes(noteElements);
             Console.WriteLine("Note saved successfully!");
 
-
-
+            padMenu.DisplayNotes();
         }
 
         public void SaveNotes(NoteElements newNote)

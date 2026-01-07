@@ -11,7 +11,6 @@ namespace CSTestGround.MainMenu
             string[] options =
             {
             "NotePad",
-            "test"
             };
 
             int selectedIndex = 0;

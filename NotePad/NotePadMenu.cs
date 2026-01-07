@@ -20,8 +20,9 @@ namespace CSTestGround.NotePad
 
             string filePath = @"C:\Users\Georgie\source\repos\Learn-CSharp\NotePad\NotesDB.json";
 
-            if (!File.Exists(filePath))
+            if (!File.Exists(filePath)) // just in case json file is missing :)
             {
+                Console.Clear();
                 Console.WriteLine(@"NO NOTES FOUND CREATE A 'NoteDB.json' file on NotePad Folder, Copy the path and paste it in > filePath");
                 Console.ReadKey();
                 return;
@@ -32,43 +33,51 @@ namespace CSTestGround.NotePad
 
             if (notes == null || notes.Count == 0)
             {
-                Console.WriteLine("NO NOTES FOUND");
+                Console.Clear();
+                Console.WriteLine("NO NOTES FOUND PRESS ANY KEY TO ADD NOTES...");
+                Console.ReadKey();
                 pad.TakeNotes();
             }
-
-            Console.Clear();
 
             int selectedIndex = 0;
 
             List<object> notesSaved = new List<object>(); // the note count and title is stored here <---- will be used for DisplayMenu
 
             // to save the title and count to the list
-            foreach (var note in notes)
-            {
-                var notesInfo = $"{notes.Count} : {note.title}";
-                notesSaved.Add(notesInfo);
-            }
+            LoadMenu(notes, notesSaved);
 
-            DrawMenu(notesSaved, selectedIndex);
-
-            var key = Console.ReadKey().Key;
-
-            if (key == ConsoleKey.DownArrow)
-            {
-                selectedIndex++;
-            }
-
-            if (key == ConsoleKey.UpArrow)
-            {
-                selectedIndex--;
-            }
-
-            if (key == ConsoleKey.Enter)
+            while (notesSaved.Count > 0)
             {
                 Console.Clear();
-                if (selectedIndex == 0)
+
+                DrawMenu(notesSaved, selectedIndex);
+
+                var key = Console.ReadKey().Key;
+
+                if (key == ConsoleKey.DownArrow)
                 {
-                    Console.WriteLine(notes[0]);
+                    selectedIndex++;
+                }
+
+                if (key == ConsoleKey.UpArrow)
+                {
+                    selectedIndex--;
+                }
+
+                if (key == ConsoleKey.A)
+                {
+                    pad.TakeNotes();
+                }
+
+                if (key == ConsoleKey.X)
+                {
+                    DeleteNoteAt(filePath, selectedIndex, notes, notesSaved);
+                }
+
+                if (key == ConsoleKey.Enter)
+                {
+                    Console.Clear();
+                    Console.WriteLine(notes[selectedIndex]);
                     Console.ReadKey();
                 }
             }
@@ -76,7 +85,7 @@ namespace CSTestGround.NotePad
 
         public void DrawMenu(List<object> list, int selectedIndex)
         {
-            Console.WriteLine("\n--- Saved Notes ---\n");
+            Console.WriteLine("\n--- Saved Notes ------------------------------- 'A' add  -  'D' delete\n");
 
             for (int i = 0; i < list.Count; i++)
             {
@@ -91,6 +100,33 @@ namespace CSTestGround.NotePad
             }
         }
 
-        
+        public void LoadMenu(List<NoteElements> notes, List<Object> notesSaved)
+        {
+            for (int i = 0; i < notes.Count; i++)
+            {
+                var notesInfo = $"{i + 1} : {notes[i].title}";
+                notesSaved.Add(notesInfo);
+            }
+
+        }
+
+        public void DeleteNoteAt(string filePath, int selectedIndex, List<NoteElements> mainList, List<object> menuList)
+        {
+            if (selectedIndex >= 0 && selectedIndex < mainList.Count)
+            {
+                mainList.RemoveAt(selectedIndex);
+                menuList.RemoveAt(selectedIndex);
+
+                for (int i = 0; i < menuList.Count; i++)
+                {
+                    menuList[i] = $"{i + 1}";
+                }
+
+                string editedJsonNotes = JsonSerializer.Serialize(mainList, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(filePath, editedJsonNotes);
+                DisplayNotes();
+            }
+        }
+
     }
 }

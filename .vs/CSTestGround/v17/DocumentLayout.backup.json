@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:notepad\\notepaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\notepad\\notesdb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:notepad\\notesdb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:style.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\notepad\\notesdb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:notepad\\notesdb.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "NotesDB.json",
+              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotesDB.json",
+              "RelativeDocumentMoniker": "NotePad\\NotesDB.json",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotesDB.json",
+              "RelativeToolTip": "NotePad\\NotesDB.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T13:00:28.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Style.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Style.cs",
               "RelativeDocumentMoniker": "Style.cs",
@@ -54,8 +67,7 @@
               "RelativeToolTip": "Style.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAASwCMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T19:23:50.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T19:23:50.743Z"
             },
             {
               "$type": "Document",
@@ -65,20 +77,20 @@
               "RelativeDocumentMoniker": "NotePad\\NotePadData.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotePadData.cs",
               "RelativeToolTip": "NotePad\\NotePadData.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAEwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-04T17:46:49.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs",
               "RelativeDocumentMoniker": "MainMenu\\Menu.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs",
-              "RelativeToolTip": "MainMenu\\Menu.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB4AAAA7AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs*",
+              "RelativeToolTip": "MainMenu\\Menu.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T07:10:53.65Z",
               "EditorCaption": ""
@@ -91,22 +103,9 @@
               "RelativeDocumentMoniker": "NotePad\\NotePadMenu.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotePadMenu.cs*",
               "RelativeToolTip": "NotePad\\NotePadMenu.cs*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAwwEcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwB8AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T07:09:15.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NotesDB.json",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotesDB.json",
-              "RelativeDocumentMoniker": "NotePad\\NotesDB.json",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\NotePad\\NotesDB.json",
-              "RelativeToolTip": "NotePad\\NotesDB.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-03T07:06:21.621Z",
               "EditorCaption": ""
             }
           ]
