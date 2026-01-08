@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Security.Cryptography.X509Certificates;
@@ -9,23 +10,29 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using static TutorialProject.Weather.WeatherData;
+using static TutorialProject.Weather.WeatherModel;
 
 namespace TutorialProject.Weather
 {
     public class GetWeather
     {
         public HttpClient client = new HttpClient();
-        public WeatherData weatherData = new WeatherData();
+        public WeatherModel weatherData = new WeatherModel();
         public async Task Display() 
         {
-            
-            string apiKey = "9dbe6104d433c7f13ae9f7564fa27f2d";
+
+            // this is a dynamic way of getting file path
+            var userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            var envPath = Path.Combine(userProfile, @"source\repos\Learn-CSharp\.env");
+
+            DotNetEnv.Env.Load(envPath);
+
+            var weatherAPI_key = Environment.GetEnvironmentVariable("WEATHER_API_KEY");
 
             Console.Write("Enter Location ex.(Liliw,ph): ");
             var location = Console.ReadLine().ToLower();
 
-            string url = $"https://api.openweathermap.org/data/2.5/weather?q={location}&appid={apiKey}&units=metric";
+            string url = $"https://api.openweathermap.org/data/2.5/weather?q={location}&appid={weatherAPI_key}&units=metric";
 
             HttpClient client = new HttpClient();
 
@@ -85,5 +92,15 @@ Console.WriteLine($"temp: {root.GetProperty("main").GetProperty("temp").GetDoubl
               // navigating the response weather index 0    -GetProperty-> Description: ex. Rain
 Console.WriteLine($"Weather: {root.GetProperty("weather")[0].GetProperty("description").GetString()}");
 
+
+
+
+
+// this is a dynamic way of getting file path
+            var userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            var envPath = Path.Combine(userProfile, @"source\repos\Learn-CSharp\.env");
  
+
+
+// ENV FILE - secure place to store keys
  */
