@@ -21,9 +21,10 @@ namespace CSTestGround.Sorting
 
             BubbleSort(numbers);
 
+            Console.Write($"SORTED: ");
             foreach (int number in numbers)
             {
-                Console.Write($"SORTED: {number}");
+                Console.Write($"{number} ");
             }
 
             Console.ReadLine();
@@ -45,11 +46,7 @@ namespace CSTestGround.Sorting
 
         public void UnknownSort(int[] array)
         {
-            int[] 
-            for (int i = 0; i < array.Length; i++)
-            {
 
-            }
         }
 
     }

@@ -18,8 +18,6 @@ namespace CSTestGround.MainMenu
 
             menu.Start();
 
-
-
         }
     }
 }

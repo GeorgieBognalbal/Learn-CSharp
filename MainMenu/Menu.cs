@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using CSTestGround.NotePad;
-using TutorialProject.Weather;
+using CSTestGround.Sorting;
+using CSTestGround.Weather;
+using TutorialProject.ToDoList;
 
 namespace CSTestGround.MainMenu
 {
@@ -9,12 +11,16 @@ namespace CSTestGround.MainMenu
     {
         public NotePadMenu notePad = new NotePadMenu();
         public GetWeather weather = new GetWeather();
+        public Sort sort = new Sort();
+        public TDLView toDoList = new TDLView();
         public void Start()
         {
             string[] options =
             {
             "NotePad",
-            "Weather"
+            "Weather",
+            "Sort",
+            "To Do List"
             };
 
             int selectedIndex = 0;
@@ -57,6 +63,16 @@ namespace CSTestGround.MainMenu
                     if (selectedIndex == 1)
                     {
                         weather.Display();
+                    }
+
+                    if (selectedIndex == 2)
+                    {
+                        sort.start();
+                    }
+
+                    if (selectedIndex == 3)
+                    {
+                        toDoList.display();
                     }
                 }
             }

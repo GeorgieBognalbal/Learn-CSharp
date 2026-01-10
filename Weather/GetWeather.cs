@@ -1,18 +1,11 @@
-﻿using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
-using System.Linq;
 using System.Net.Http;
-using System.Security.Cryptography.X509Certificates;
-using System.Security.Policy;
-using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using System.Xml.Linq;
-using static TutorialProject.Weather.WeatherModel;
+using static CSTestGround.Weather.WeatherModel;
 
-namespace TutorialProject.Weather
+namespace CSTestGround.Weather
 {
     public class GetWeather
     {
