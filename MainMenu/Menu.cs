@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using CSTestGround.NotePad;
 using CSTestGround.Sorting;
 using CSTestGround.Weather;
+using TutorialProject;
 using TutorialProject.ToDoList;
 
 namespace CSTestGround.MainMenu
@@ -13,14 +14,16 @@ namespace CSTestGround.MainMenu
         public GetWeather weather = new GetWeather();
         public Sort sort = new Sort();
         public TDLView toDoList = new TDLView();
-        public void Start()
+        public DBtest dBtest = new DBtest();
+        public async Task Start()
         {
             string[] options =
             {
             "NotePad",
             "Weather",
             "Sort",
-            "To Do List"
+            "To Do List (Test)",
+            "DBconnect (test)"
             };
 
             int selectedIndex = 0;
@@ -54,26 +57,19 @@ namespace CSTestGround.MainMenu
                 {
                     Console.Clear();
                     //NotePad
-                    if (selectedIndex == 0)
-                    {
-                        notePad.DisplayNotes();
-                    }
+                    if (selectedIndex == 0) notePad.DisplayNotes();
 
-                    //-----
-                    if (selectedIndex == 1)
-                    {
-                        weather.Display();
-                    }
+                    //Weather
+                    if (selectedIndex == 1) weather.Display();
 
-                    if (selectedIndex == 2)
-                    {
-                        sort.start();
-                    }
+                    //Sort
+                    if (selectedIndex == 2) sort.start();
 
-                    if (selectedIndex == 3)
-                    {
-                        toDoList.display();
-                    }
+                    //To Do List (testing With MySQL)
+                    if (selectedIndex == 3) toDoList.display();
+
+                    //MySQL test connection
+                    if (selectedIndex == 4) dBtest.dbConnection();
                 }
             }
         }
