@@ -4,6 +4,7 @@ using CSTestGround.NotePad;
 using CSTestGround.Sorting;
 using CSTestGround.Weather;
 using TutorialProject;
+using TutorialProject.Gemini;
 using TutorialProject.ToDoList;
 
 namespace CSTestGround.MainMenu
@@ -15,6 +16,7 @@ namespace CSTestGround.MainMenu
         public Sort sort = new Sort();
         public TDLView toDoList = new TDLView();
         public DBtest dBtest = new DBtest();
+        public Manager gemini = new Manager();
         public async Task Start()
         {
             string[] options =
@@ -23,7 +25,8 @@ namespace CSTestGround.MainMenu
             "Weather",
             "Sort",
             "To Do List (Test)",
-            "DBconnect (test)"
+            "DBconnect (test)",
+            "Gemini"
             };
 
             int selectedIndex = 0;
@@ -70,6 +73,10 @@ namespace CSTestGround.MainMenu
 
                     //MySQL test connection
                     if (selectedIndex == 4) dBtest.dbConnection();
+
+                    //Gemini
+                    if (selectedIndex == 5) gemini.Start();
+
                 }
             }
         }
