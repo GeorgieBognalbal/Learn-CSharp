@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using DocumentFormat.OpenXml.Drawing.Diagrams;
-using DotNetEnv;
 using MySql.Data.MySqlClient;
+using SQLite;
 
 namespace TutorialProject.ToDoList
 {
     public class TDLController
     {
-        public void dbConnection()
+        public async Task dbConnection()
         {
             var userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
             var envPath = Path.Combine(userProfile, @"source\repos\Learn-CSharp\.env");
@@ -24,13 +20,25 @@ namespace TutorialProject.ToDoList
             string database = Environment.GetEnvironmentVariable("database");
             string password = Environment.GetEnvironmentVariable("password");
 
+
             string connectionStr = $"server={server}; database={database}; user={user}; password={password}";
 
-            using (var connect = new MySqlConnection(connectionStr))
+            try
             {
-                connect.Open();
-                Console.WriteLine("Connected");
-                Console.ReadKey();
+                using (var connect = new MySqlConnection(connectionStr))
+                {
+                    Console.WriteLine("Loading Connection...");
+                    connect.Open();
+                    Console.WriteLine("Connected! Press any key to close");
+                    Console.ReadKey();
+
+                    
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"AN ERROR OCCURRED: {ex.Message}");
             }
         }
     }
