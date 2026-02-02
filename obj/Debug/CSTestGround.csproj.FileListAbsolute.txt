@@ -119,3 +119,10 @@ C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\Microsoft.Extensions.Loggin
 C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Georgie\source\repos\Learn-CSharp\obj\Debug\CSTestGround.csproj.SuggestedBindingRedirects.cache
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\MySqlConnector.dll
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\SQLite-net.dll
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\MySqlConnector.xml
+C:\Users\Georgie\source\repos\Learn-CSharp\bin\Debug\SQLite-net.xml

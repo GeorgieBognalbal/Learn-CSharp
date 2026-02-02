@@ -13,18 +13,16 @@ namespace TutorialProject.ToDoList
         TDLController controller = new TDLController();
         public void display()
         {
-            //style.loginPage();
+            style.loginPage();
 
-            //Console.CursorVisible = true;
+            Console.CursorVisible = true;
 
-            //Console.SetCursorPosition(46, 15);
-            //Console.ReadLine();
+            Console.SetCursorPosition(46, 15);
+            Console.ReadLine();
 
-            //Console.SetCursorPosition(46, 18);
-            //Console.ReadLine();
+            Console.SetCursorPosition(46, 18);
+            Console.ReadLine();
 
-            
-            controller.dbConnection().Wait();
         }
     }
 }

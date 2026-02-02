@@ -6,6 +6,7 @@ using CSTestGround.Weather;
 using TutorialProject;
 using TutorialProject.Gemini;
 using TutorialProject.ToDoList;
+using TutorialProject.Collision;
 
 namespace CSTestGround.MainMenu
 {
@@ -17,6 +18,7 @@ namespace CSTestGround.MainMenu
         public TDLView toDoList = new TDLView();
         public DBtest dBtest = new DBtest();
         public Manager gemini = new Manager();
+        public Movement collision = new Movement();
         public async Task Start()
         {
             string[] options =
@@ -26,7 +28,8 @@ namespace CSTestGround.MainMenu
             "Sort",
             "To Do List (Test)",
             "DBconnect (test)",
-            "Gemini"
+            "Gemini",
+            "Collision",
             };
 
             int selectedIndex = 0;
@@ -76,6 +79,9 @@ namespace CSTestGround.MainMenu
 
                     //Gemini
                     if (selectedIndex == 5) gemini.Start();
+
+                    //Collision 
+                    if (selectedIndex == 6) collision.Start();
 
                 }
             }
