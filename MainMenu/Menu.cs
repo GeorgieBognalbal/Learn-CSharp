@@ -7,11 +7,13 @@ using TutorialProject;
 using TutorialProject.Gemini;
 using TutorialProject.ToDoList;
 using TutorialProject.Collision;
+using TutorialProject.RomanConverter;
 
 namespace CSTestGround.MainMenu
 {
     class Menu
     {
+        public converter romanConverter = new converter();
         public NotePadMenu notePad = new NotePadMenu();
         public GetWeather weather = new GetWeather();
         public Sort sort = new Sort();
@@ -30,6 +32,7 @@ namespace CSTestGround.MainMenu
             "DBconnect (test)",
             "Gemini",
             "Collision",
+            "Roman Numerals Converter"
             };
 
             int selectedIndex = 0;
@@ -83,6 +86,8 @@ namespace CSTestGround.MainMenu
                     //Collision 
                     if (selectedIndex == 6) collision.Start();
 
+                    //Roman Numerals Converter
+                    if (selectedIndex == 7) romanConverter.start();
                 }
             }
         }

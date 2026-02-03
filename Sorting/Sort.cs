@@ -1,4 +1,6 @@
-﻿using Sprache;
+﻿using DocumentFormat.OpenXml.Spreadsheet;
+using DocumentFormat.OpenXml.Wordprocessing;
+using Sprache;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,15 +21,26 @@ namespace CSTestGround.Sorting
 
             int[] numbers = separate.Select(int.Parse).ToArray();
 
-            BubbleSort(numbers);
+            Console.Write("TYPE OF SORT: ");
+            Console.WriteLine("1. BUBBLE SORT");
+            Console.WriteLine("2. BUILT-IN ARRAY METHOD");
 
-            Console.Write($"SORTED: ");
-            foreach (int number in numbers)
+            Console.Write("Selected Number: ");
+            switch (Console.ReadLine())
             {
-                Console.Write($"{number} ");
+                case "1":
+                    BubbleSort(numbers);
+                    break;
+                case "2":
+                    FindMinMax(numbers);
+                    break;
+                default:
+                    Console.WriteLine("INVALID OPTION");
+                    break;
             }
 
-            Console.ReadLine();
+            Console.WriteLine("PRESS ANYKEY TO RETURN TO MENU.....");
+            Console.ReadKey();
         }
 
         public void BubbleSort(int[] array)
@@ -42,11 +55,32 @@ namespace CSTestGround.Sorting
                     }
                 }
             }
+
+            Console.Write($"SORTED WITH BUBBLE SORT: ");
+            foreach (int number in array)
+            {
+                Console.Write($"{number} ");
+            }
+
+            Console.ReadLine();
         }
 
-        public void UnknownSort(int[] array)
+        public static void FindMinMax(int[] values) // Built-in Array methods
         {
+            int[] sorted = { };
 
+            Array.Sort(values);
+
+            for (int i = 0; i < values.Length; i++)
+            {
+                sorted[i] = values[i];
+            }
+
+            Console.Write("SORTED WITH ARRAY METHOD: ");
+            foreach (double number in sorted)
+            {
+                Console.Write($"{number} ");
+            }
         }
 
     }

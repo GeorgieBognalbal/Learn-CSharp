@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\collision\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:collision\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\sorting\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:sorting\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\romanconverter\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,36 +15,8 @@
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\gemini\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:gemini\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\todolist\\tdlview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:todolist\\tdlview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\todolist\\tdlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:todolist\\tdlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\todolist\\tdlmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:todolist\\tdlmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\weather\\getweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:weather\\getweather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\mainmenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:mainmenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\gemini\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:gemini\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sort.cs",
+              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Sorting\\Sort.cs",
+              "RelativeDocumentMoniker": "Sorting\\Sort.cs",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Sorting\\Sort.cs*",
+              "RelativeToolTip": "Sorting\\Sort.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T14:35:02.072Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -72,111 +57,14 @@
               "RelativeDocumentMoniker": "RomanConverter\\converter.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\RomanConverter\\converter.cs",
               "RelativeToolTip": "RomanConverter\\converter.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T13:34:55.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Collision\\Movement.cs",
-              "RelativeDocumentMoniker": "Collision\\Movement.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Collision\\Movement.cs",
-              "RelativeToolTip": "Collision\\Movement.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T00:13:51.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TDLModel.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ToDoList\\TDLModel.cs",
-              "RelativeDocumentMoniker": "ToDoList\\TDLModel.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ToDoList\\TDLModel.cs",
-              "RelativeToolTip": "ToDoList\\TDLModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T22:31:55.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TDLView.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ToDoList\\TDLView.cs",
-              "RelativeDocumentMoniker": "ToDoList\\TDLView.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ToDoList\\TDLView.cs",
-              "RelativeToolTip": "ToDoList\\TDLView.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T20:48:20.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TDLController.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ToDoList\\TDLController.cs",
-              "RelativeDocumentMoniker": "ToDoList\\TDLController.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ToDoList\\TDLController.cs",
-              "RelativeToolTip": "ToDoList\\TDLController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T20:38:23.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetWeather.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Weather\\GetWeather.cs",
-              "RelativeDocumentMoniker": "Weather\\GetWeather.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Weather\\GetWeather.cs",
-              "RelativeToolTip": "Weather\\GetWeather.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:01:40.428Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Gemini\\Manager.cs",
-              "RelativeDocumentMoniker": "Gemini\\Manager.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Gemini\\Manager.cs",
-              "RelativeToolTip": "Gemini\\Manager.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T12:23:32.85Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Model.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Gemini\\Model.cs",
-              "RelativeDocumentMoniker": "Gemini\\Model.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Gemini\\Model.cs",
-              "RelativeToolTip": "Gemini\\Model.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T12:22:20.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-01-10T21:02:16.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Program.cs",
               "RelativeDocumentMoniker": "MainMenu\\Program.cs",
@@ -194,7 +82,7 @@
               "RelativeDocumentMoniker": "MainMenu\\Menu.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs",
               "RelativeToolTip": "MainMenu\\Menu.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwB8AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-03T07:10:53.65Z"
             }
