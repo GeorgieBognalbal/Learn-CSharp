@@ -314,6 +314,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayOfMultiples\ArrayMultiples.cs" />
     <Compile Include="Collision\Movement.cs" />
     <Compile Include="DBtest.cs" />
     <Compile Include="Gemini\Manager.cs" />

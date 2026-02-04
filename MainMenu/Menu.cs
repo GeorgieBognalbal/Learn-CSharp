@@ -8,6 +8,7 @@ using TutorialProject.Gemini;
 using TutorialProject.ToDoList;
 using TutorialProject.Collision;
 using TutorialProject.RomanConverter;
+using TutorialProject.ArrayOfMultiples;
 
 namespace CSTestGround.MainMenu
 {
@@ -21,6 +22,7 @@ namespace CSTestGround.MainMenu
         public DBtest dBtest = new DBtest();
         public Manager gemini = new Manager();
         public Movement collision = new Movement();
+        public ArrayMultiples arrayMultiples = new ArrayMultiples();
         public async Task Start()
         {
             string[] options =
@@ -32,7 +34,8 @@ namespace CSTestGround.MainMenu
             "DBconnect (test)",
             "Gemini",
             "Collision",
-            "Roman Numerals Converter"
+            "Roman Numerals Converter",
+            "Array of Multiples"
             };
 
             int selectedIndex = 0;
@@ -88,6 +91,9 @@ namespace CSTestGround.MainMenu
 
                     //Roman Numerals Converter
                     if (selectedIndex == 7) romanConverter.start();
+
+                    //Array of Multiples
+                    if (selectedIndex == 8) arrayMultiples.Start();
                 }
             }
         }

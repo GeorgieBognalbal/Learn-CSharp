@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\sorting\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:sorting\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\romanconverter\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:romanconverter\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\arrayofmultiples\\arraymultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:arrayofmultiples\\arraymultiples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:mainmenu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|c:\\users\\georgie\\source\\repos\\learn-csharp\\sorting\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:sorting\\sort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\romanconverter\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|solutionrelative:romanconverter\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBA09AD-B1A4-4256-BA5F-8DC97895D495}|CSTestGround.csproj|C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\mainmenu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Sort.cs",
-              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Sorting\\Sort.cs",
-              "RelativeDocumentMoniker": "Sorting\\Sort.cs",
-              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Sorting\\Sort.cs*",
-              "RelativeToolTip": "Sorting\\Sort.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA6wBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:35:02.072Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -51,7 +42,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ArrayMultiples.cs",
+              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ArrayOfMultiples\\ArrayMultiples.cs",
+              "RelativeDocumentMoniker": "ArrayOfMultiples\\ArrayMultiples.cs",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\ArrayOfMultiples\\ArrayMultiples.cs*",
+              "RelativeToolTip": "ArrayOfMultiples\\ArrayMultiples.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T12:15:23.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sort.cs",
+              "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Sorting\\Sort.cs",
+              "RelativeDocumentMoniker": "Sorting\\Sort.cs",
+              "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\Sorting\\Sort.cs",
+              "RelativeToolTip": "Sorting\\Sort.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T14:35:02.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "converter.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\RomanConverter\\converter.cs",
               "RelativeDocumentMoniker": "RomanConverter\\converter.cs",
@@ -59,12 +76,11 @@
               "RelativeToolTip": "RomanConverter\\converter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T13:34:55.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T13:34:55.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Program.cs",
               "RelativeDocumentMoniker": "MainMenu\\Program.cs",
@@ -76,15 +92,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs",
               "RelativeDocumentMoniker": "MainMenu\\Menu.cs",
               "ToolTip": "C:\\Users\\Georgie\\source\\repos\\Learn-CSharp\\MainMenu\\Menu.cs",
               "RelativeToolTip": "MainMenu\\Menu.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAQwFkAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwF8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T07:10:53.65Z"
+              "WhenOpened": "2026-01-03T07:10:53.65Z",
+              "EditorCaption": ""
             }
           ]
         },
